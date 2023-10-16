@@ -1,0 +1,61 @@
+body {
+	padding: 100px;
+	background-color: rgb(225, 238, 231);
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.list {
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.task {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	justify-content: space-between;	
+	background-color: rgb(99, 179, 199);
+	border-radius: 4px;
+	height: 40px;
+	max-width: 500px;
+	min-width: 200px;
+}
+
+.add {
+	margin-bottom: 10px;
+	height: 40px;
+	display: flex;
+	gap: 20px;
+}
+
+.done {
+	background-color: rgb(112, 226, 161);
+	border-bottom: 4px rgb(55, 124, 85) solid;
+}
+
+.buttons {
+	display: flex;
+	gap: 30px;
+}
+.editBar {
+	gap: 10px;
+	display: flex;
+}
+
+button {
+	transition: .2s;
+	cursor: pointer;
+	border: none;
+	background-color: rgb(238, 128, 101);
+	padding: 8px 20px;
+	border-radius: 10px;
+	border-bottom: 4px rgb(139, 47, 24) solid;
+}
+
+button:hover {
+	box-shadow: 0px 5px black 4px;
+	border: none;
+}
